@@ -20,6 +20,7 @@
   "devDependencies": {
     "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
     "@hecticme/eslint-config": "^0.0.0",
     "@vue/test-utils": "^2.4.6",
     "babel-jest": "^29.7.0",
