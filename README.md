@@ -2,32 +2,9 @@
 
 Setting up unit test with Jest in a Nuxt 3 project.
 
-## Setup
+## 💻 Development
 
-Make sure to install the dependencies:
-
-```bash
-pnpm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-pnpm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-pnpm run build
-```
-
-Locally preview production build:
-
-```bash
-pnpm run preview
-```
+- Clone this repository
+- Enable [Corepack](https://github.com/nodejs/corepack) using `corepack enable` (use `npm i -g corepack` for Node.js < 16.10)
+- Install dependencies using `pnpm install`
+- Run `pnpm dev` to start the development server.
