@@ -1,4 +1,8 @@
 <script setup lang="ts">
+import {
+  ref,
+} from 'vue'
+
 const username = ref('')
 
 const hasSubmitted = ref(false)
