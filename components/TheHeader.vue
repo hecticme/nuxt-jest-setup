@@ -1,11 +1,17 @@
 <template>
   <header class="header">
     <div class="header-inner">
-      <NuxtLink to="/">
+      <NuxtLink
+        class="nav-link"
+        to="/"
+      >
         Home
       </NuxtLink>
 
-      <NuxtLink to="/playground">
+      <NuxtLink
+        class="nav-link"
+        to="/playground"
+      >
         Playground
       </NuxtLink>
     </div>
@@ -25,5 +31,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 0.75rem;
+}
+
+.nav-link {
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 250ms ease-in-out;
+}
+
+.nav-link:is(:focus-visible, :hover) {
+  background-color: #f2f3f4;
 }
 </style>
